@@ -21,8 +21,8 @@ body{
     padding: 30px;
 }
 .logo{
-    width: 150px;
-    height:55px;
+    width: 200px;
+    height:65px;
 }
 .nav-items{
     list-style: none;
@@ -40,6 +40,7 @@ a{
     font-size: 18px;
     border-radius: 5px;
     transition: .5s all;
+    color:rgba(128, 217, 255, 0.842);
 
 }
 .nav-item a:hover,a:active{
@@ -101,14 +102,14 @@ h3{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.skill-item{
+.skill-item,.fun-item{
     flex-basis: 40%;
     margin-bottom:50px;
     padding:10px;
     border-radius: 10px;
     box-shadow: 0px 7px 20px 0px rgba(128, 217, 255, 0.842);
 }
-.skill-item:hover{
+.skill-item:hover,.fun-item:hover{
     box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.438);
 }
 .fw-icon{
@@ -117,6 +118,18 @@ h3{
     margin-top: 10px;
     font-size: 45px;
     
+}
+.fun-area{
+    margin: 20px 80px;
+}
+.fun-item{
+    flex-basis: 22%;
+}
+.fun-item .fw-icon{
+    text-align: center;
+}
+.fun-text{
+    text-align: center;
 }
 
 .skill-text{
@@ -129,11 +142,18 @@ p{
 .skill-area h2{
     font-size:35px;
     font-weight:700;
-    text-align:center;
-    margin-bottom: 50px;
+    margin:0 0 50px 50px;
+}
+.fun-area h2{
+    font-size:35px;
+    font-weight:700;
+    margin:0 0 50px 0;
 }
 .skill-text h3{
     font-size:30px;
     font-weight:400; 
     margin:0;
+}
+.fun-area {
+    padding:20px 70px;
 }
