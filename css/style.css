@@ -85,10 +85,55 @@ h3{
     border: 2px solid rgb(128,216,255);
     border-radius:20px;
     margin-right: 10px;
-    box-shadow: 0px 7px 40px 0px rgba(128, 217, 255, 0.842)
+    box-shadow: 0px 7px 40px 0px rgba(128, 217, 255, 0.842);
 }
 .btn:hover{
     border-color: #ffffff;
     color:rgb(128,216,255);
     box-shadow: 0px 7px 29px 0px;
+}
+/* skill area */
+.skill-area{
+    margin:20px 80px;
+    padding: 20px;
+}
+.skill-area .flex-box{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.skill-item{
+    flex-basis: 40%;
+    margin-bottom:50px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 20px 0px rgba(128, 217, 255, 0.842);
+}
+.skill-item:hover{
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.438);
+}
+.fw-icon{
+    flex-basis: 20%;
+    color:rgba(128, 217, 255, 0.842);
+    margin-top: 10px;
+    font-size: 45px;
+    
+}
+
+.skill-text{
+    flex-basis: 80%;
+}
+p{
+    font-size:15px;
+    font-weight:400;
+}
+.skill-area h2{
+    font-size:35px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom: 50px;
+}
+.skill-text h3{
+    font-size:30px;
+    font-weight:400; 
+    margin:0;
 }
