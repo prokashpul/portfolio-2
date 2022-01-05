@@ -22,7 +22,12 @@ body{
 }
 .logo{
     width: 200px;
-    height:65px;
+    height:60px;
+}
+.nav-manu{
+    border-bottom: 1px solid rgba(128, 217, 255, 0.267);
+    padding-bottom:20px;
+
 }
 .nav-items{
     list-style: none;
