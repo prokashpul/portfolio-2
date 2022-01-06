@@ -13,6 +13,7 @@ body{
 .flex-box{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .col-2{
     flex-basis: 50%;
@@ -94,6 +95,7 @@ h3{
     border: 2px solid rgb(128,216,255);
     border-radius:20px;
     margin-right: 10px;
+    text-align: center;
     box-shadow: 0px 7px 40px 0px rgba(128, 217, 255, 0.842);
 }
 .btn:hover{
@@ -131,6 +133,7 @@ h3{
 }
 .fun-area{
     margin: 20px 80px;
+    padding:20px 70px;
 }
 .fun-item{
     flex-basis: 22%;
@@ -163,9 +166,7 @@ h2{
     font-weight:400; 
     margin:0;
 }
-.fun-area {
-    padding:20px 70px;
-}
+
 /* footer area */
 .footer-area{
     padding: 10px 80px;
@@ -218,4 +219,53 @@ h2{
 }
 .contact-area input:focus,textarea:focus{
     background-color: transparent;
+}
+
+@media screen and (max-width:675px){
+    .col-2{
+        flex-basis: 100%;
+    }
+    .about-me img{
+        width: 100%;
+    }
+    .about-me{
+        margin: 10px;
+    }
+    .btn{
+        display: block;
+        margin: 20px 0;
+        
+    }
+    .skill-area{
+        margin: 0;
+        padding: 0;
+    }
+    .skill-item{
+        flex-basis: 90%;
+    }
+    .fw-icon{
+        flex-basis: 90%;
+    }
+    .fun-area {
+        margin: 20px;
+        padding: 0;
+    }
+    .fun-item{
+        flex-basis: 100%;
+    }
+    .contact-area h2{
+        margin: 0;
+        text-align: center;
+    }
+    h2{
+        margin: 50px 0;
+        text-align: center;
+    }
+    .name-inp input,.contact-area input, textarea{
+        width: 90%;
+    }
+    .contact-area .btn{
+        margin: auto;
+        width: 50%;
+    }
 }
